@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <link href="assets/css/A.bootstrap.min.css+template.css+fa.min.css+gfonts.min.css,Mcc.LI5f1xXhbm.css.pagespeed.cf.G00NPyYGCq.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="static/css/results.css">
+    <title>Results</title>
+    <style>
+    body{
+        background-color:#e8b0b7;
+    }
+    </style>
+{% endblock %}
+
+{% block body %}
+<div>
+    <h2 style="margin-top:100px; font-weight:bold;">Results for "{{mn}}" are:</h2>
+    <p style="margin-top:25px;"><b>{{p}}%</b> of reviews are <b><i>positive</i></b></p>
+    <p><b>{{n}}%</b> of reviews are <b><i>negative</i></b></p>
+    <p>out of <b>{{t}}</b> reviews in total.</p>
+</div>
+
+<div style="margin-top:25px; font-weight:bold;">
+    <p><b>{{s}}</b></p>
+</div>
+{% endblock %}

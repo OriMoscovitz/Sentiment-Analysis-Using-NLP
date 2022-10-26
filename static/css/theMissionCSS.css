@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    background-color: #c9c9c9;
+}
+
+h1{
+    margin-top:10%;
+}
+
+img:hover{
+    box-shadow: 0px 0px 4px 3px #000000;
+}
+
+.titles {
+    font-weight: bold;
+    font-family: Gisha;
+}
+
+.left-div{
+    float: left;
+    width: 50%;
+}
+.right-div{
+    float: right;
+    width: 50%;
+}
+
+#img1{
+    height: 600px;
+    width: 463px;
+}
+
+#img2{
+    height: 300px;
+    width: 300px;
+}
+

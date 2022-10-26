@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <title>Review Sentiment</title>
+    <style>
+    body {
+        background-color: #ad96ba;
+    }
+    </style>
+{% endblock %}
+
+{% block body %}
+
+<p style="margin-top:100px;">
+    <b>Wonder if a review is positive or negative?</b>
+</p>
+<p>
+    <b>Check and find out.</b>
+</p>
+
+<div>
+    <form action="" method="POST">
+        <h4 style="margin-top:5%; font-weight:bold;">Enter Review:</h4>
+        <input style="width:500px;" type="search" name="review">
+        <p><input style="margin-top:1%;" type="submit" value="submit" /></p>
+    </form>
+</div>
+{% endblock %}

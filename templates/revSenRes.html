@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <title>Review Sentiment Result</title>
+    <link rel="stylesheet" href="./static/css/stylesheet.css">
+{% endblock %}
+
+{% block body %}
+<div style="margin-left:20%; margin-top:2%; width: 50%; border: 3px solid green; padding: 10px; font-family: Tahoma" >
+    <h3>Results are:</h3>
+    <p></p>
+    <p>Given the review:</p>
+    <p>{{r}}</p>
+    <p>Predicted review as <b>{{sen}}</b></p>
+    <p>With <b>{{acc}}%</b> percent of <b>accuracy</b></p>
+</div>
+{% endblock %}
